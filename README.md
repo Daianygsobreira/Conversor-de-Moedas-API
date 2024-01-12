@@ -15,16 +15,22 @@ BTC
 ETH
 
 Ex: USD para BRL, USD para BTC, ETH para BRL, etc...
+
 A requisição deve receber como parâmetros: A moeda de origem, o valor a ser
 convertido e a moeda final.
+
 Ex: ?from=BTC&to=EUR&amount=123.45
+
 Requisitos
+
 O código precisa rodar em Linux Ubuntu (preferencialmente como container Docker)
 Para executar seu código, deve ser preciso apenas rodar os seguintes comandos:
+
 git clone $seu-fork
 cd $seu-fork
 comando para instalar dependências
 comando para executar a aplicação
+
 A API pode ser escrita com ou sem a ajuda de frameworks (À sua escolha)
 
 # Solução
