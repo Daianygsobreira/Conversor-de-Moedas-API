@@ -13,11 +13,11 @@ Git
 
 1 - Clone o repositório:
 
-git clone [URL do seu repositório]
+git clone https://github.com/Daianygsobreira/Conversor-de-Moedas-API.git
 
 2- Navegue até o diretório do projeto:
 
-cd [nome do seu diretório]
+cd Teste Data Stone 
 
 3- Construa a imagem Docker:
 
