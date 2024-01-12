@@ -9,9 +9,13 @@ verdade e atuais.
 A API deve, originalmente, converter entre as seguintes moedas:
 
 USD
+
 BRL
+
 EUR
+
 BTC
+
 ETH
 
 Ex: USD para BRL, USD para BTC, ETH para BRL, etc...
@@ -56,6 +60,7 @@ Testes unitários
 Foi utilizado o unitteste, para executá-los rode  python test_api.py
 
 # Pré-requisitos
+
 Docker
 Git
 
@@ -84,7 +89,9 @@ A API agora estará acessível em localhost:5000/convert.
 Para realizar uma conversão, faça uma requisição GET com os seguintes parâmetros:
 
 from: Moeda de origem (ex: BTC)
+
 to: Moeda de destino (ex: EUR)
+
 amount: Valor a ser convertido (ex: 123.45)
 
 Exemplo de requisição:
@@ -96,35 +103,57 @@ Retornará um objeto com as informações:
 
 {
   "conversao_de": "BTC",
+
   "conversao_para": "EUR",
+  
   "mensagem": "123.45 BTC foram convertidos para 4920449.71 EUR usando uma taxa de conversao de 39857.83.",
+  
   "taxa_de_coneversao": 39857.83,
+  
   "valor_convertido": 4920449.71,
+  
   "valor_original": 123.45
+  
 }
 
 # Requisitos
 
 O código precisa rodar em Linux Ubuntu (preferencialmente como container Docker)
 Para executar seu código, deve ser preciso apenas rodar os seguintes comandos:
+
 git clone $seu-fork
 cd $seu-fork
+
 comando para instalar dependências
 comando para executar a aplicação
+
 A API pode ser escrita com ou sem a ajuda de frameworks (À sua escolha)
+
 Critérios de avaliação
+
 Organização do código: Separação de módulos, view e model, back-end e front-end
+
 Clareza: O README explica de forma resumida qual é o problema e como pode rodar
 a aplicação?
+
 Assertividade: A aplicação está fazendo o que é esperado? Se tem algo faltando, o
+
 README explica o porquê?
+
 Legibilidade do código (incluindo comentários)
+
 Segurança: Existe alguma vulnerabilidade clara?
+
 Cobertura de testes (Não esperamos cobertura completa)
+
 Histórico de commits (estrutura e qualidade)
+
 Escolhas técnicas: A escolha das bibliotecas, banco de dados, arquitetura, etc, é a
+
 melhor escolha para a aplicação?
+
 Entrega
+
 Pode ser o link para um repositório público (github, bitbucket, gitlab), um repositório
 privado (nos enviando um convite para visualizar) ou, em último caso um zip com o
 repositório (lembrar de manter a pasta .git no repositório).
