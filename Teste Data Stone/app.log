@@ -1,0 +1,21 @@
+2024-01-12 13:52:44,820 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.15.49:5000
+2024-01-12 13:52:44,820 - INFO - [33mPress CTRL+C to quit[0m
+2024-01-12 13:52:44,827 - INFO -  * Restarting with stat
+2024-01-12 13:52:45,163 - WARNING -  * Debugger is active!
+2024-01-12 13:52:45,168 - INFO -  * Debugger PIN: 796-097-973
+2024-01-12 13:52:53,243 - INFO - 127.0.0.1 - - [12/Jan/2024 13:52:53] "[31m[1mGET /convert?from=BRL&to=EUR&amount= HTTP/1.1[0m" 400 -
+2024-01-12 13:52:58,278 - ERROR - Valor inválido para 'amount'
+2024-01-12 13:52:58,279 - INFO - 127.0.0.1 - - [12/Jan/2024 13:52:58] "[31m[1mGET /convert?from=BRL&to=EUR&amount=aaa HTTP/1.1[0m" 400 -
+2024-01-12 13:53:08,728 - INFO - Conversão realizada de BRL para EUR
+2024-01-12 13:53:08,731 - INFO - 127.0.0.1 - - [12/Jan/2024 13:53:08] "GET /convert?from=BRL&to=EUR&amount=500 HTTP/1.1" 200 -
+2024-01-12 15:20:25,672 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.15.49:5000
+2024-01-12 15:20:25,673 - INFO - [33mPress CTRL+C to quit[0m
+2024-01-12 15:20:25,683 - INFO -  * Restarting with stat
+2024-01-12 15:20:26,062 - WARNING -  * Debugger is active!
+2024-01-12 15:20:26,072 - INFO -  * Debugger PIN: 796-097-973
